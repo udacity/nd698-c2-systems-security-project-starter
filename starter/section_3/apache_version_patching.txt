@@ -1,0 +1,11 @@
+#Provide the apache version and configuration lines to be changed 
+
+
+# Apache Version
+
+
+
+# Configuration file change(Hint: the change has to be made in /etc/apache2/conf-enabled/security.conf)
+
+
+

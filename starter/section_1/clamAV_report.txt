@@ -1,0 +1,3 @@
+#report all the detected filenames and the malware names identified by ClamAV.
+
+Filename		Detection name 
