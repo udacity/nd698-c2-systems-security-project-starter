@@ -1,53 +1,12 @@
-# README Template
-
-Below is a template provided for use when building your README file for students.
-
-# Project Title
-
-Project description goes here.
-
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+**Step 1:** Download or clone the [starter repo here](https://github.com/udacity/nd698-c2-systems-security-project-starter).
 
-### Dependencies
+**Step 2:** Download a copy of the [ubuntu.ova file from S3](https://udacity-send.s3-us-west-2.amazonaws.com/analysis-image.ova). Don't be concerned if it takes some time to download. If 30 minutes passes and the file has not downloaded, cancel and reattempt the download. If it's still not successful, please reach out to Udacity staff.
 
-```
-Examples here
-```
+**Step 3:** Download & install Oracle VirtualBox software which will be used as our virtualization tool for loading the OVA file downloaded above. [You can download it here](https://www.virtualbox.org/wiki/Downloads).
 
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-[License](LICENSE.md)
+**Step 4:** Download and Install Docker Desktop for its official website. Depending on your operating system, you can follow one of the below links to download and set up docker on your computer. 
+- [Windows](https://docs.docker.com/docker-for-windows/install/)
+- [MacOS](https://docs.docker.com/docker-for-mac/)
+- [Linux](https://docs.docker.com/engine/install/ubuntu/)
