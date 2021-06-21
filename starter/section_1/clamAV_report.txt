@@ -1,3 +1,6 @@
 #report all the detected filenames and the malware names identified by ClamAV.
 
 Filename		Detection name 
+/home/ubuntu/Downloads/ft32: Unix.Malware.Agent-6774375-0 FOUND
+/home/ubuntu/Downloads/ft64: Unix.Malware.Agent-6774336-0 FOUND
+/home/ubuntu/Downloads/wipefs: Unix.Tool.Miner-6443173-0 FOUND

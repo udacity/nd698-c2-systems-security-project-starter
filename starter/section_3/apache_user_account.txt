@@ -1,7 +1,22 @@
 # Provide the configuration lines you will update to ensure that Apache launches with group name as "apache-group" and user account as "apache-user".
 
+root@ubuntu-VirtualBox:~# useradd -r apache-user
+root@ubuntu-VirtualBox:~# groupadd apache-group
+root@ubuntu-VirtualBox:~# usermod -aG apache-group apache-user
 
-#Configuration lines:
+
+#Configuration lines /etc/apache2/apache2.conf:
+
+User apache-user
+Group apache-group
 
 
+#Results
 
+root@ubuntu-VirtualBox:~# ps -aux | grep apache2
+root      7777  0.0  0.4 156440 20268 ?        Ss   08:13   0:00 /usr/sbin/apache2 -k start
+apache-+  7781  0.0  0.1 156464  6376 ?        S    08:13   0:00 /usr/sbin/apache2 -k start
+apache-+  7782  0.0  0.1 156464  6376 ?        S    08:13   0:00 /usr/sbin/apache2 -k start
+apache-+  7783  0.0  0.1 156464  6376 ?        S    08:13   0:00 /usr/sbin/apache2 -k start
+apache-+  7784  0.0  0.1 156464  6376 ?        S    08:13   0:00 /usr/sbin/apache2 -k start
+apache-+  7785  0.0  0.1 156464  6376 ?        S    08:13   0:00 /usr/sbin/apache2 -k start

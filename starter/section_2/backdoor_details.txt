@@ -1,12 +1,12 @@
 # Provide the backdoor entries created by the nation state attackers. 
 
 # Rouge Username
-
+darklord
 
 # Backdoor process name
-
+/tmp/remotesec
 
 # Backdoor port number the above process is listening on
-
+56565
 
 

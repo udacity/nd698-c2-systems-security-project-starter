@@ -1,8 +1,9 @@
 # provide the additional filename that you have identified as a potentially suspicious file. Also provide details about the Command and control Domain which is hardcoded inside this file. 
 
 # Filename
-
+SSH-One
 
 # Callout domain
-
+hfs_m=http://darkl0rd.com:7758/SSH-T
+hfs_s=http://darkl0rd.com:7758/SSH-One
  
