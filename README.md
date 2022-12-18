@@ -2,7 +2,7 @@
 
 **Step 1:** Download or clone the starter repo.
 
-**Step 2:** Download a copy of the [ubuntu.ova file from S3](https://udacity-send.s3-us-west-2.amazonaws.com/analysis-image.ova). Don't be concerned if it takes some time to download. If 30 minutes passes and the file has not downloaded, cancel and reattempt the download. If it's still not successful, please reach out to Udacity staff.
+**Step 2:** Download a copy of the [ubuntu.ova file from S3](https://udacity-send.s3-us-west-2.amazonaws.com/2021_analysis_image_final.ova). Don't be concerned if it takes some time to download. If 30 minutes passes and the file has not downloaded, cancel and reattempt the download. If it's still not successful, please reach out to Udacity staff.
 
 **Step 3:** Download & install Oracle VirtualBox software which will be used as our virtualization tool for loading the OVA file downloaded above. [You can download it here](https://www.virtualbox.org/wiki/Downloads).
 
